@@ -1,205 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	 <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
- </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <title>Campaign</title>
 
- <body>
+  <link rel="stylesheet" href="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/styles/bootstrap-css/bootstrap.css">
+  <link rel="stylesheet" href="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/styles/custom-css/nav.css">
+  <link rel="stylesheet" href="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/styles/custom-css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+  <script src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptopjs/bootstrap-js/jquery.js"></script>
+    <script src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/js/bootstrap-js/bootstrap.js"></script>
+    <script src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/js/bootstrap-js/popper.js"></script>
+    <script src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/js/navBar.js"></script>
+  <script src="https://kit.fontawesome.com/c5e8748bc2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/styles/custom-css/campaign.css">
+ 
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid" style="background-color:#000">
-	<div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:#fff;font-family:montserrat;font-size:20px; padding-left:50px">Zuri Fashion</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-<ul class="nav navbar-nav navbar-right" style="font-family:montserrat">
-    <li><a href="#" style="color:#fff">Home</a></li>
-    <li><a href="#" style="color:#fff">Women</a></li>
-    <li><a href="#" style="color:#fff">Men</a></li>
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#fff">Collections
-        <span class="caret" style="color:#5230DB"></span></a>
-      <ul class="dropdown-menu" >
-        <li><a href="#" style="color:#fff">Shoes</a></li>
-        <li><a href="#" style="color:#fff">Bags</a></li>
-        <li><a href="#" style="color:#fff">Watches</a></li>                       
-      </ul>
-    </li>
-    <li><a href="#" style="color:#fff">Sales</a></li>
-    <li><a href="#" style="color:#fff">Accessories</a></li>
-    <li><a href="#" style="color:#fff">About</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-search" style="color:#fff"></span> </a></li>
-        <li class="dropdown" >
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#fff">
-        <span class="glyphicon glyphicon-shopping-cart" ></span><span class="badge" style="background-color:#5230DB">4</span></a>
-      <ul class="dropdown-menu" >
-        <div class="container">
-        <div class="col-sm-4">
-        <li><img src="image/green.png" height="100px" width="100px"></li>
+</head>
+<body>
+	<div class="container">
+	<nav class="navbar navbar-expand-sm bg-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/layer1.png" alt="image"
+      /></a>
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
       </div>
-      <div class="col-sm-4">
-        <h5>PRIYE SUEDE SHOE</h5>
-        <h6>$300.00</h6>
+      <div class="navbar-collapse navv" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto" id="ham">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">LEND</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#course">BORROW</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#features">ABOUT</a>
+          </li>
+
+          <li class="nav-item">
+            <button type="button" class="btn btn-danger nav-btn">Login</button>
+          </li>
+        </ul>
       </div>
-      <div class="col-sm-4" style="margin-top:10px">
-        <form method="post" action="#">
-    <div>
-        <input type="number" id="searchinput" value="2">
-
-    <span id="clear"  class="glyphicon glyphicon-trash" ></span></a></button>
-
-    <script>
-$("#clear").click(function(){
-    $("#searchinput").val('');
-});
-    </script>
-  </div>
-      
-</form>
-
-      </div>  
+    </nav><br>
     </div>
 
-      <div class="container">
-        <div class="col-sm-4">
-        <li><img src="image/peach.jpg" height="100px" width="100px"></li>
-      </div>
-      <div class="col-sm-4" >
-        <h5>BUNMI CLOTH SHOE</h5>
-        <h6>$200.00</h6>
-      </div>
-      <div class="col-sm-4" style="margin-top:10px">
-        <form method="post" action="#">
-    <div>
-        <input type="number" id="searchinput" value="1">
-
-    <span id="clear"  class="glyphicon glyphicon-trash" ></span></a></button>
-
-    <script>
-$("#clear").click(function(){
-    $("#searchinput").val('');
-});
-    </script>
-  </div>
+    <div class="container-fluid">
       
-</form>
-</div>
-</div>
-
-
-        <div class="container">
-        <div class="col-sm-4">
-        <li><img src="image/diamond.jpg" height="100px" width="100px"></li>
-      </div>
-      <div class="col-sm-4" style="margin-top:10px">
-        <h5>HOPA CLOTH SHOE</h5>
-        <h6>$100.00</h6>
-      </div>
-      <div class="col-sm-4">
-        <form method="post" action="#">
-    <div>
-        <input type="number" id="searchinput" value="1">
-
-    <span id="clear"  class="glyphicon glyphicon-trash" ></span></a></button>
-
-    <script>
-$("#clear").click(function(){
-    $("#searchinput").val('');
-});
-    </script>
-  </div>
-      
-</form>
-      </div>
-    </div>
-    <br>
-    <div class="container" style="color:#5230DB">
+    	<h4 style="padding-top:20px; margin-top:50px">Home/Campaigns page/<a href="campaign.html">Campaign</a></h4><br>
+    	<h2>Fund John Doe's Laptop Purchase</h2>
     
-    <div class="col-sm-6">
-    <h3 >Total</h3>
+</div>
+
+<div class="container-fluid">
+  <div class="container" style="padding-top:20px">
+  <img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/man-in-hood.jpg" style="width: 100%; height:30%">
+</div>
   </div>
 
-    <div class="col-sm-6">
-    <p id="sum" class="pull-right"></p>
-    <strong><script type="text/javascript">
-    var amount1=600;
-    var amount2= 200;
-    var amount3=100;
-    var total=amount1+amount2+amount3;
-    document.getElementById("sum").innerHTML="$"+total+".00";
-    </script>
-    </div>
-    </div>
+  <div class="container">
+    <div class="row" style="font-size:24px; padding-top:10PX">
+               <div class="col-sm-6"> 
+                 <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Posted by:</p>
+                 <!-- <img class="ellipse-3" src="../img/Ellipse 3.png"> -->
+                 <img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/john-doe.jpg" class="img-ellipse" height="40px" width="40px;">
+                John Doe
+                </div>
+                <div class="col-sm-6">
+                  <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Posted on:</p>
+                    <p >12/12/2020</p>
+                </div>
+             </div>
+             <hr>
+           </div>
+             <div class="container">
+              <div class="row">
+               <div class="col-sm-6"> 
+                 <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Location:</p>
+                 <p>Lagos, Nigeria</p>
+             </div>
+              <div class="col-sm-6">  
+                 <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Occupation:</p>
+                 <p>Freelance Software Developer</p>
+             </div>
+           </div>
+             <hr>
+             </div>
+             <div class="container">
+              <p style="font-size:16px; color: rgba(4, 23, 42, 0.5); ">Description</p>
+              <p style="line-height:36px">I run a small freelancing business in the heart of Lagos. My former laptop finally packed up after several attempts at refurbishing it, I would like a loan to get a new laptop to continue my business. My business <a href="#" class="text-danger">loremipsum.com</a> generates enough money to repay the loan in three months. I would really appreciate funding for this campaign. Thank you for your time 🙂.</p>
+             </div>
+         <div class="container">
+          <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Recommended by:</p>
+          <div class="container"> 
 
-    <div class="container">
-      <a href="#" class="btn btn-btn btn-block" style="background-color:#5230DB; color:#fff" >Check Out</a>
-    </div><br>
-
-    <div class="container">
-      <a href="#" class="btn btn-default btn-block" style="color:#5230DB" >View Cart</a>
-    </div><br>
-
-      </ul>
-      <li><a href="#" style="color:#fff" > Login</a></li>
-	</div>
-</nav>
+<ul class="list-group">
+  <div class="row">
+  <div class="col-sm-6"  style="margin-top:20px">
+              <li class="list-group-item"><img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/jane-doe.jpg" class="img-ellipse" height="40px" width="40px">
+              Jane Doe 11 successful recommendations
+            </li></div>
+            
+             <div class="col-sm-6"  style="margin-top:20px">
+              <li class="list-group-item"><img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/janet-doe.jpg" class="img-circle" height="40px" width="40px">Janet Doe 7 successful recommendations
+            </li></div>
 
 
+              <div class="col-sm-6" style="margin-top:20px">
+              <li class="list-group-item"> <img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/uncle-doe.jpg" class="img-circle" height="40px" width="40px">
+               Uncle Doe 6 successful recommendations</li></div>
+            </div>
+          </ul>
+          </div>
+          <hr>
+          <div class="row" style="font-size:24px;">
+          <div class="col-sm-6" >  
+                 <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Loan amount:</p>
+                 <p>N 250,000</p>
+             </div>
+             <div class="col-sm-6">  
+                 <p style="font-size:16px; color: rgba(4, 23, 42, 0.5);">Proposed Repayment Period:</p>
+                 <p>3 Months</p>
+             </div>
+           </div>
+             <hr>
+             <div class="row" style="font-size:20px;">
+          <div class="col-sm-9" >
+                 <p>Get a N 275,000 repaymentin 3 months if you fund this loan</p>
+               </div>
+          <div class="col-sm-3" >
+            <a href="#" class="btn btn-danger btn-lg" role="button">Fund this loan</a>
+          </div>
+        </div>
+             <hr>
 
-<div class="container" style="margin-top:70px">
-  <img src="image/dress.jpg">
-  <img src="image/shoes.jpg">
+             <div class="row" style="font-size:20px;">
+          <div class="col-sm-8" >
+             <p>Can't fund? Want help? Share this campaign on social media</p>
+           </div>
 
-</div>
+          <div class="icon">
+            
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        </div>
 
+        </div>
 
-<div class="container-fluid" style="background-color:#3c3c3c;  font-family:montserrat;  padding-top:40px">
-  
-  <div class="row" style="margin-left:30px">
-    <div class="col-sm-4">
-      <ul class="nav nav-pills nav-stacked">
-      <h5><a href="#" style="color:#fff">PAYMENT METHOD</a></h5>
-     <p style="color:#fff"> Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris</p>
-    </ul>
-    <img src="image/card.png" height="35px" width="40px" style="margin-right:10px">
-    <img src="image/visa.png" height="35px" width="40px" style="margin:10px">
-    <img src="image/mastercard.jpg" height="35px" width="40px" style="margin:10px">
-    <img src="image/paypal.png" height="35px" width="40px" style="margin:10px">
-    <P style="color:#fff">Secure online payment</p>
-    </div>
+            <div>
 
-    <div class="col-sm-4">
-      <ul class="nav nav-pills nav-stacked">
-      <h5><a href="#" style="color:#fff">SHOPPING GUIDE</a></h5>
-      <p><a href="#" style="color:#fff">FAQ</a></p>
-      <p><a href="#" style="color:#fff">Shipment</a></p>
-      <p><a href="#" style="color:#fff">Returns</a></p>
-      <p><a href="#" style="color:#fff">Policies</a></p>
-      <p><a href="#" style="color:#fff">Gift cards</a></p>
-      <p><a href="#" style="color:#fff">Clothing care</a></p>
-      <p><a href="#" style="color:#fff">Purchase conditions</a></p>
-    </ul>
-    </div>
+<footer class="footer">
+      <div class="footer-li">
+        <div class="left">
+          <ul>
+            <li><img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/Group 3005.png" alt="" /></li>
+            <li>address</li>
+            <li>email address</li>
+            <li>phone</li>
+          </ul>
 
-    <div class="col-sm-4">
-      <ul class="nav nav-pills nav-stacked">
-      <h5><a href="#" style="color:#fff">COMPANY</a></h5>        
-      <p><a href="#" style="color:#fff">About us</a></p>
-      <p><a href="#" style="color:#fff">Press</a></p>
-      <p><a href="#" style="color:#fff">Our team</a></p>
-      <p><a href="#" style="color:#fff">Offices</a></p>
-      <p><a href="#" style="color:#fff">Affiliates</a></p>
-      <p><a href="#" style="color:#fff">Giveaway</a></p>
-      <p><a href="#" style="color:#fff">Contact</a></p>
-    </ul>
-    </div>
+          <div>
+            <ul class="footer-icons">
+              <li>
+               <a href="#"><img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/Vector (1).png" alt="" /></a> 
+              </li>
+              <li ><a href="#"><img src=".file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/Vector (2).png" alt="" /></li></a>
+              <li><a href="#"><img src="file:///C:/xampp/htdocs/HNGi7/fund-my-laptop/img/Vector (3).png" alt="" /></a></li>
+            </ul>
+          </div>
+        </div>
 
-</div>
- </div>
+        <div class="right">
+          <ul>
+            <h4>RESOURCES</h4>
+            <li>Why choose FundMyLaptop</li>
+            <li>How P2P Lending works</li>
+            <li>About FundMyLaptop</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container mt-4 bottom">
+        <p>2020 &copy; Copyright All Rights Reserved</p>
 
- </body>
- </html>
+        <ul>
+          <li>FAQ</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="../../js/bootstrap-js/jquery.js"></script>
+    <script src="../../js/bootstrap-js/bootstrap.js"></script>
+    <script src="../../js/bootstrap-js/popper.js"></script>
+
+	</body>
+	</html>
